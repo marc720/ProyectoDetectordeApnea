@@ -37,7 +37,7 @@ El objetivo es crear un dispositivo **económico, confiable y accesible** para i
 | *Marcia Santa Maria* | Integración FreeRTOS, lógica de apnea, documentación |
 
 
-## 📈 Estado Actual del Proyecto
+## Estado Actual del Proyecto
 
 ### ✔ Completado
 - Implementación de FSM del micrófono
@@ -49,12 +49,12 @@ El objetivo es crear un dispositivo **económico, confiable y accesible** para i
 - Arquitectura general definida
 - Carpeta `/img` agregada al repositorio
 
-### ⏳ En Progreso
+### En Progreso
 - Sustitución de lectura ADC por lectura real I2S para INMP441
 - Pruebas clínicas simuladas
 - Integración de filtros de señal (RMS para audio)
 
-### 🔧 Pendiente
+### Pendiente
 - Carcasa física y montaje final
 - Conectividad (posible ESP-NOW / WiFi)
 - Documentación de instalación y pruebas
