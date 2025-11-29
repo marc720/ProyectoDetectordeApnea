@@ -10,7 +10,14 @@ Este proyecto implementa un sistema embebido basado en **ESP32 + FreeRTOS**, dis
 Si ambos sensores detectan ausencia de respiración y movimiento durante **15 segundos**, el sistema activa un **buzzer de alarma**.  
 El objetivo es crear un dispositivo **económico, confiable y accesible** para incubadoras y monitoreo neonatal.
 
+# Arquitectura del Sistema 
 
+
+<h2 align="center">Arquitectura del Sistema</h2>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/marc720/ProyectoDetectordeApnea/main/img/diagrama.jpg" width="700">
+</p>
 
 ##  Tecnologías Utilizadas
 
@@ -40,8 +47,7 @@ El objetivo es crear un dispositivo **económico, confiable y accesible** para i
 ## Estado Actual del Proyecto
 
 ### ✔ Completado
-- Implementación de FSM del micrófono
-- Implementación de FSM del sensor piezoeléctrico
+- Carcasa física y montaje final
 - FSM del buzzer (alarma)
 - Integración de sensores al ESP32
 - Lógica de apnea de 15 segundos basada en FreeRTOS
@@ -55,6 +61,7 @@ El objetivo es crear un dispositivo **económico, confiable y accesible** para i
 - Integración de filtros de señal (RMS para audio)
 
 ### Pendiente
-- Carcasa física y montaje final
 - Conectividad (posible ESP-NOW / WiFi)
 - Documentación de instalación y pruebas
+- Implementación de FSM del micrófono
+- Implementación de FSM del sensor piezoeléctrico
